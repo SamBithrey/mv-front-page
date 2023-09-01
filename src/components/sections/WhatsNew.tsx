@@ -23,7 +23,7 @@ const WhatsNew = (props: Props) => {
           className="flex-[0.75]  flex justify-center flex-col"
         >
           <TypingText title="| What's New?" />
-          <TitleText title={<>What's new about MetaVersus?</>} />
+          <TitleText title={<>Whats new about MetaVersus?</>} />
           <div className="mt-12 flex flex-wrap justify-between gap-6">
             {newFeatures.map((feature, i) => (
               <NewFeatures key={feature.title} {...feature} />
