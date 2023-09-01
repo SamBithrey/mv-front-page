@@ -15,3 +15,8 @@ interface insight {
   title: string;
   subtitle: string;
 }
+
+interface social {
+  name: string;
+  url: string;
+}
